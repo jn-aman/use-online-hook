@@ -1,0 +1,24 @@
+{
+  "name": "use-online-hook",
+  "version": "1.0.0",
+  "description": "a simple hook to check whether the user is online or not :)",
+  "main": "dist/useOnline.js",
+  "scripts": {
+    "prebuild": "npm i",
+    "build": "babel src --out-dir dist",
+    "postbuild": "copyfiles -u 1 ./src/useOnline.d.ts ./dist"
+  },
+  "author": "Aman Jain",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "copyfiles": "^2.4.1"
+  },
+  "files": [
+    "dist"
+  ],
+  "types": "dist/useOnline.d.ts"
+}
