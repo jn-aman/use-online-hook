@@ -1,6 +1,6 @@
 {
   "name": "use-online-hook",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "a simple hook to check whether the user is online or not :)",
   "main": "dist/useOnline.js",
   "scripts": {
@@ -20,5 +20,15 @@
   "files": [
     "dist"
   ],
-  "types": "dist/useOnline.d.ts"
+  "types": "dist/useOnline.d.ts",
+  "keywords": [
+    "hooks",
+    "custom-hooks",
+    "react",
+    "useState",
+    "useEffect",
+    "user-online",
+    "use-online",
+    "user online"
+  ]
 }
