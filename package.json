@@ -1,6 +1,6 @@
 {
   "name": "use-online-hook",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a simple hook to check whether the user is online or not :)",
   "main": "dist/useOnline.js",
   "scripts": {
@@ -20,6 +20,7 @@
   "files": [
     "dist"
   ],
+  "repository": "https://github.com/jn-aman/use-online-hook",
   "types": "dist/useOnline.d.ts",
   "keywords": [
     "hooks",
